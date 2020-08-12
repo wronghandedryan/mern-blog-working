@@ -30,7 +30,7 @@ ArtitclesList(this.State + newState(NewPost))
  )
 
 }
-return this.State
+return this.State(render(ArticlesList))
 
 
 
