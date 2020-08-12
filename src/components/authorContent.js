@@ -5,7 +5,7 @@ import NewPost from BlogCreatePost;
 const authorContent = ({eTitle, data})=>{
   const authorContent = async  ()=>{
     return{
-    { authorContent.map(author(
+     authorContent.map(author(
       <div class="authorContent" key="eTitle">
         <h1>
           {{data}}
@@ -13,6 +13,10 @@ const authorContent = ({eTitle, data})=>{
       </div>
         )
       )
-    }
+            }
+          }
+        }
+
+
 
 export default autherContent();
