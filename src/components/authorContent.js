@@ -5,7 +5,7 @@ import NewPost from './BlogCreatePost';
 const authorContent = ({eTitle, data})=>{
   const authorContent = async  ()=>{
     return{
-     authorContent.map(author(
+     authorContent: map({NewPost})(
       <div class="authorContent" key="eTitle">
         <h1>
           {{data}}
