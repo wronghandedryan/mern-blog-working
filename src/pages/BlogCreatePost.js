@@ -4,15 +4,15 @@ import axios from "axios";
 export default function BlogCreatePost(){
 const [ data, setData ] = useState('')
  return(
-    <form onSubmit={e => createPost((eTitle, e , authName), data)}>
+    <form onSubmit={e => createPost((eTitle, e , eName), data)}>
      <label id="PostTitle">Post Title:
-        <textarea onChange={e => setData(eTitle.target.value)} value={data} />
+        <textarea onChange={etitle => setData(eTitle.target.value)} value={data} />
       </label>
       <label id="PostBody">Post:
         <textarea onChange={e => setData(e.target.value)} value={data} />
       </label>
       <label id="PostAuthor">Author:
-      <textarea onChange={e => setName(authName.target.value)} value={data} />
+      <textarea onChange={eName => setData(eName.target.value)} value={data} />
       </label>
 
 
