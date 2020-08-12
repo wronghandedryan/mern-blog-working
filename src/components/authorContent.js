@@ -13,9 +13,9 @@ const authorContent = ({eTitle, data})=>{
       </div>
         )
       )
-            }
-          }
-        }
+    }
+  }  
+}
 
 
 

@@ -1,8 +1,9 @@
 import React, {useState}  from 'react'
 import {Link} from 'react-router-dom'
-import NewPost from BlogPostCreate;
+import {NewPost, data} from "./pages/BlogPostCreate";
 
-const NewPost = UpDate('ArticlesList');
+
+
 
 export default function ArticlesList() {
   const [ data, setData ] = useState('')
@@ -31,3 +32,6 @@ ArtitclesList(this.State + newState(NewPost))
  )
 
 }
+
+
+  
