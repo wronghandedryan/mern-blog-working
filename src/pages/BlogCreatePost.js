@@ -5,13 +5,13 @@ export default function BlogCreatePost(){
 const [ data, setData ] = useState('')
  return(
     <form onSubmit={e => createPost((eTitle, e , authName), data)}>
-     <label>Post Title:
+     <label id="PostTitle">Post Title:
         <textarea onChange={e => setData(eTitle.target.value)} value={data} />
       </label>
-      <label>Post:
+      <label id="PostBody">Post:
         <textarea onChange={e => setData(e.target.value)} value={data} />
       </label>
-      <label>Author:
+      <label id="PostAuthor">Author:
       <textarea onChange={e => setName(authName.target.value)} value={data} />
       </label>
 
