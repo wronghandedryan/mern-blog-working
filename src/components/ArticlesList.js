@@ -13,6 +13,8 @@ export default function ArticlesList() {
 
 }
 
+  return(
+
   ArticlesList = async() => 
  this.State(
  ArticlesList = ({articles})=>(
@@ -29,9 +31,7 @@ export default function ArticlesList() {
 ArtitclesList(this.State + newState(NewPost))
  )
 
+
+
+  )
 }
-return this.State(render(ArticlesList))
-
-
-
-  

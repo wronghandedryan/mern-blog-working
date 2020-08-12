@@ -18,4 +18,4 @@ const authorContent = ({eTitle, data})=>{
 }
 
 
-export default autherContent();
+export default authorContent;
