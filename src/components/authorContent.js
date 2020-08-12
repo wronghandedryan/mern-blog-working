@@ -1,2 +1,15 @@
 import React, {state} from 'react'; 
-import Link from "react-router-dom";
+
+
+const authorContent = ({eTitle, data})=>{
+  const upvoteArticle = async  ()=>{
+    return{
+      <div class="authorContent" key="eTitle">
+        <h1>
+          {{data}}
+        </h1>
+      </div>
+    }
+  };
+
+export default autherContent;
