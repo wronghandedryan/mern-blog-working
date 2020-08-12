@@ -1,0 +1,29 @@
+{
+  "name": "react",
+  "version": "0.0.0",
+  "private": true,
+  "proxy": "http://localhost:8000",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.9.28",
+    "morgan": "^1.10.0",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-router-dom": "^5.1.2",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "scripts": {
+    "start": "concurrently \"react-scripts start\" \node server.js\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}
