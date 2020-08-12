@@ -4,7 +4,7 @@ import axios from "axios";
 export default function BlogCreatePost(){
 const [ data, setData ] = useState('')
  return(
-    <form onSubmit={e => createPost((eTitle, e , eName), data)}>
+    <form onSubmit={(data =[eTitle, e, eName]) => createPost(data)}>
      <label id="PostTitle">Post Title:
         <textarea onChange={etitle => setData(eTitle.target.value)} value={data} />
       </label>
@@ -21,17 +21,19 @@ const [ data, setData ] = useState('')
     </form>
   )
 }
+const data = {'eTitle, e, eName': data}
 
-async function createPost(e, data){
+async function createPost(data){
   e.preventDefault()
   try {
     const resp = await axios.post("/api/posts", {data});
   } catch(e) {
-    NewPost(e);
+    NewPost({eTitle, e, eName}, data);
     return;
   }
   window.location = "/ArticlesList/" + resp.data.id;
 }
+
 
 
 

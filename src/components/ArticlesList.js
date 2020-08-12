@@ -30,8 +30,4 @@ export default function ArticlesList() {
 ),
 ArtitclesList(this.State + newState(NewPost))
  )
-
-
-
-  )
-}
+)}
