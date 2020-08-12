@@ -3,7 +3,7 @@ mongoose.connect('mongodb://localhost/article-db', function (err) {
  
    if (err) throw err;
  
-   console.log('Successfully connected');
+   else console.log('Successfully connected');
  
 });
 

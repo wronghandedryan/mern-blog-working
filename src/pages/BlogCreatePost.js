@@ -4,13 +4,20 @@ import axios from "axios";
 export default function BlogCreatePost(){
 const [ data, setData ] = useState('')
  return(
-    <form onSubmit={e => createPost(e, data)}>
+    <form onSubmit={e => createPost((eTitle, e , authName), data)}>
+     <label>Post Title:
+        <textarea onChange={e => setData(eTitle.target.value)} value={data} />
+      </label>
       <label>Post:
         <textarea onChange={e => setData(e.target.value)} value={data} />
       </label>
+      <label>Author:
+      <textarea onChange={e => setName(authName.target.value)} value={data} />
+      </label>
 
 
-      <input type="submit" value="create-post" />
+      <input type="submit" value="create-post" id="addNewPost" />
+      
     </form>
   )
 }
@@ -20,9 +27,16 @@ async function createPost(e, data){
   try {
     const resp = await axios.post("/api/posts", {data});
   } catch(e) {
-    alert(e);
+    NewPost(e);
     return;
   }
-  window.location = "/posts/" + resp.data.id;
+  window.location = "/ArticlesList/" + resp.data.id;
 }
+
+
+//const createPost = axios.post(createPost);
+ 
+
+
+
 

@@ -1,7 +1,17 @@
-import React from 'react'
+import React, {useState}  from 'react'
 import {Link} from 'react-router-dom'
+import NewPost from BlogPostCreate
+debugger
 
-const ArticlesList = ({articles})=>(
+class articles { 
+  ArticlesList(props)
+  constructor()
+   returns = this.State
+
+}
+componentDidMount = async() => 
+ this.State(
+ ArticlesList = ({articles})=>(
        <>
        {articles.map((article,key)=>(
  <Link className="article-list-item" key={key} to ={`/article/${article.name}`}>
@@ -11,5 +21,8 @@ const ArticlesList = ({articles})=>(
         ) )}
        </>
      
-)
-export default ArticlesList;
+),
+ArtitclesList(this.State + newState(NewPost))
+ )
+
+ 
