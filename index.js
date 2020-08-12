@@ -10,6 +10,7 @@ import NavBar from "./src/NavBar";
 import NotFoundPage from './src/pages/NotFoundPage'
 import ArticlesListPage from "./src/pages/ArticlesListPage";
 import BlogCreatePost from "./src/pages/BlogCreatePost";
+import components from './src/components';
 import "./style.css";
 import "./index.css";
 
