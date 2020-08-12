@@ -21,7 +21,7 @@ const [ data, setData ] = useState('')
     </form>
   )
 }
-const data = {'eTitle, e, eName': data}
+
 
 async function createPost(data){
   e.preventDefault()
