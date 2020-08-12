@@ -2,20 +2,18 @@ import React, {useState}  from 'react'
 import {Link} from 'react-router-dom'
 
 
-
-
-
 export default function ArticlesList() {
   const [ data, setData ] = useState('')
-
-
-class articles { 
+  
+  class articles { 
   ArticlesList(props)
   constructor()
    returns = this.State
+    
 
 }
-componentDidMount = async() => 
+
+  ArticlesList = async() => 
  this.State(
  ArticlesList = ({articles})=>(
        <>
@@ -32,6 +30,8 @@ ArtitclesList(this.State + newState(NewPost))
  )
 
 }
+return this.State
+
 
 
   

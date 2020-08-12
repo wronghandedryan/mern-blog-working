@@ -1,5 +1,5 @@
 import React, {state} from 'react'; 
-import NewPost from '/BlogCreatePost';
+import NewPost from './BlogCreatePost';
 
 
 const authorContent = ({eTitle, data})=>{
@@ -16,7 +16,6 @@ const authorContent = ({eTitle, data})=>{
     }
   }  
 }
-
 
 
 export default autherContent();

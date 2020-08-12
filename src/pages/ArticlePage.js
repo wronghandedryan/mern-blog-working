@@ -5,7 +5,7 @@ import ArticlesList from '../components/ArticlesList'
 import CommentsList from '../components/CommentsList'
 import UpvotesSection from '../components/UpvotesSection'
 import AddCommentForm from '../components/AddCommentForm'
-
+import NewPost from './BlogPostCreate'
 
 const ArticlePage = ({match})=>{
   const name = match.params.name;
