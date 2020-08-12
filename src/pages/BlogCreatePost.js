@@ -33,9 +33,9 @@ async function createPost(e, data){
   window.location = "/ArticlesList/" + resp.data.id;
 }
 
-export default NewPost;
 
-//const createPost = axios.post(createPost);
+
+
  
 
 
