@@ -79,4 +79,4 @@ const article = [
     
 ];
 
-export default article;
+export default articles;

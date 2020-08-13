@@ -4,7 +4,7 @@ import React from "react";
 import Home from './pages/HomePage.js';
 import {schema} from 'mongoose';
 
-const URL = mongooseConnect('mongodb://localhost/article-db');
+const URL = mongooseConnect('mongodb://localhost/articles-db');
 
 connectDB(URL) 
 if(err) 

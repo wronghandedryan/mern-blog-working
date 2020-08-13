@@ -16,4 +16,4 @@ const UpvotesSection = ({articleName,upvotes,setArticleInfo})=>{
   )
 }
 
-export default UpvotesSection
+export default UpvotesSection;

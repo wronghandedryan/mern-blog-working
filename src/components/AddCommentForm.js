@@ -30,4 +30,4 @@ return(
   </div>
 )
 }
-export default AddCommenForm
+export default AddCommentForm;

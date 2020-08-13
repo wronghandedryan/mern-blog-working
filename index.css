@@ -57,17 +57,17 @@ nav a:hover {
   padding-top: 64px;
 }
 
-.article-list-item {
+.articles-list-item {
   text-decoration: none;
   color: black;
   padding: 16px 0 0 0;
 }
-.articles{
+.article{
   text-align: center;
   margin: auto;
 }
 
-.article-list-item p {
+.articles-list-item p {
   padding-bottom: 32px;
   border-bottom: 2px solid black;
 }

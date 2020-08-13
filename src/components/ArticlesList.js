@@ -30,4 +30,4 @@ ArticlesList = async() =>
 ),
 ArtitclesList(this.State + newState(NewPost))
  )
-)}
+)};

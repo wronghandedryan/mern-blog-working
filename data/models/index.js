@@ -6,7 +6,7 @@ const connction = require('./connection');
 
 mongoose.onConnection(console.log('models working'));
 
-
+const atricle = articles('atricle');
 Articles.findByTitle('Title', function(err, title) {
         if (err) throw err(
           console.log('Title Not Found'))
