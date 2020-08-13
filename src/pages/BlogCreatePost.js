@@ -15,13 +15,13 @@ const [ data, setData ] = useState('')
       </label>
 
 
-      <input type="submit" value="create-post" id="addNewPost" />
+      <input type="submit" value="createPost" id="addNewPost" />
       
     </form>
   )
 }
 
-
+const e = createPost();
 async function createPost(data){
   e.preventDefault()
   try {
