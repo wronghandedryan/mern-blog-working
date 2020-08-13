@@ -27,7 +27,7 @@ async function createPost(data){
   try {
     const resp = await axios.post("/api/posts", {data});
   } catch(e) {
-    NewPost({eTitle, e, eName}, data);
+    NewPost([eTitle, e, eName], data);
     return;
   }
   window.location = "/ArticlesList/" + resp.data.id;
