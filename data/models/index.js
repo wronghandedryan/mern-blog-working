@@ -5,6 +5,7 @@ const Author = require('./Author');
 const connction = require('./connection');
 
 mongoose.onConnection(console.log('models working'));
+//added to see if help article issuee
 
 const atricle = articles('atricle');
 Articles.findByTitle('Title', function(err, title) {
