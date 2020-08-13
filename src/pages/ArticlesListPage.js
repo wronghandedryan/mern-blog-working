@@ -5,7 +5,7 @@ import articleContent from './ArticleContent'
 
 
 
-const ArticlesListPage = ()=>(
+const ArticleListPage = ()=>(
        <>
        <h1>Articles list</h1>
        <ArticleList articles={article-content}/>

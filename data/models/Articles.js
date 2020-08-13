@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const { Schema } = mongoose;
-const articleSchema = mongoose.Schema({
+const articlesSchema = mongoose.Schema({
     _id: mongoose.Schema.Types.ObjectId,
         title: { type: String,
         unique: true,
