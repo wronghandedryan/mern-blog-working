@@ -7,7 +7,7 @@ const connction = require('./connection');
 mongoose.onConnection(console.log('models working'));
 
 
-Articles.findByTitle('About', function(err, title) {
+Articles.findByTitle('Title', function(err, title) {
         if (err) throw err(
           console.log('Title Not Found'))
         else{
@@ -15,7 +15,7 @@ Articles.findByTitle('About', function(err, title) {
          }
 });
 
-Article.findByWordCount('300', function(err, wordCount){
+Article.findByWordCount('min 300', function(err, wordCount){
   if (err) throw err(console.log('wordCount Not Found'))
   else{
     console.log('WordCount Found');
