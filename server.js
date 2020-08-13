@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const connection = require('connection');
 const models = require('./data/models/index');
- var config = require('./data/config/Blog');
+const config = require('./data/config/Blog');
 const db = require('./data/blog');
 db.connect({
   host: process.env.DB_HOST,
