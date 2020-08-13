@@ -1,6 +1,7 @@
 import React,{useState,useEffect}from 'react'
 import articleContent from './ArticleContent'
 import NotFoundPage from './NotFoundPage'
+import article from '/component/ArticleContent'
 import ArticlesList from '../components/ArticlesList'
 import CommentsList from '../components/CommentsList'
 import UpvotesSection from '../components/UpvotesSection'
