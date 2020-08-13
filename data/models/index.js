@@ -23,13 +23,13 @@ Article.findByWordCount('min 300', function(err, wordCount){
 });
 
 
-Author.findByFirstName('Bob', function(err, firstName) {
+Author.findByFirstName('', function(err, firstName) {
   if (err) throw err(console.log('Name Not Found'))
   else{console.log('Name Found')
   }
 });
 
-Author.findByLastName('Bernardo', function(err, lastName) {
+Author.findByLastName('', function(err, lastName) {
   if (err) throw err(console.log('Name Not Found'))
   else{console.log('Name Found')
   }
