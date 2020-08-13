@@ -7,6 +7,8 @@ import UpvotesSection from '../components/UpvotesSection'
 import AddCommentForm from '../components/AddCommentForm'
 import NewPost from './BlogPostCreate'
 
+
+
 const ArticlePage = ({match})=>{
  const title = match.params.title;
  const article = articleContent.find(article => article.title === title);
@@ -14,8 +16,8 @@ const ArticlePage = ({match})=>{
  const [articleInfo,setArticleInfo]= useState({upvotes:0,comments:[]})
   useEffect(()=>{
 const fetchData = async () =>{
-  const result = await fetch (`/api/articles/${name}/`);
-  const body = await result.json();
+  const result = await fetch (`/api/articles/${title}/`);
+  const body = await result();
       console.log(body)
       setArticleInfo(body);
     }

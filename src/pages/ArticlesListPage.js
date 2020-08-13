@@ -8,7 +8,7 @@ import articleContent from './ArticleContent'
 const ArticlesListPage = ()=>(
        <>
        <h1>Articles list</h1>
-       <ArticleList articles={articleContent}/>
+       <ArticleList articles={article-content}/>
        </>
      
 )
