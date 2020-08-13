@@ -1,5 +1,5 @@
 import React,{useState,useEffect}from 'react'
-import articleContent from './article-content'
+import articleContent from './ArticleContent'
 import NotFoundPage from './NotFoundPage'
 import ArticlesList from '../components/ArticlesList'
 import CommentsList from '../components/CommentsList'

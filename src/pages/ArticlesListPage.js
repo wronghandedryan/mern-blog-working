@@ -1,6 +1,6 @@
 import React from 'react'
 import ArticleList from '../components/ArticlesList'
-import articleContent from './article-content'
+import articleContent from './ArticleContent'
 
 
 
