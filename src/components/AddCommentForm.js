@@ -1,7 +1,7 @@
 import { React, useState }from 'react';
 
 
-const AddCommenForm = ({articleName, setArticleInfo}) =>{
+const AddCommentForm = ({articleName, setArticleInfo}) =>{
  const [username,setUsername]=useState('');
  const [commentText,setCommentText]= useState('');
  const addComment = async () =>{

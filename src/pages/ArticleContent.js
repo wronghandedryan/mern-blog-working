@@ -1,4 +1,4 @@
-const articles = [
+const article = [
     {
         name: 'learn-react',
         author: 'Bob Bernardo',
@@ -79,4 +79,4 @@ const articles = [
     
 ];
 
-export default articles;
+export default article;
