@@ -1,5 +1,5 @@
 import React from 'react'
-import ArticleListPage from '../components/ArticlesListPage'
+import ArticleList from '../components/ArticlesList'
 import articleContent from './ArticleContent'
 
 
@@ -12,4 +12,4 @@ const ArticleListPage = ()=>(
        </>
      
 )
-export default ArticlesListPage;
+export default ArticleListPage;
