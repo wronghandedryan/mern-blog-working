@@ -66,4 +66,4 @@ const article = [
     
 ];
 
-export default articles;
+export default article;
