@@ -1,5 +1,5 @@
 import React from 'react'
-import ArticleList from '../components/ArticlesList'
+import ArticleListPage from '../components/ArticlesListPage'
 import articleContent from './ArticleContent'
 
 
